@@ -1,6 +1,6 @@
 {
   "name": "git-jira-cli",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "bin": {
     "git-jc": "bin/git-jira"
   },
