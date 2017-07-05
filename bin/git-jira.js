@@ -14,8 +14,8 @@ const p = execa( 'git', [
 	'commit',
 	'-am',
 	jiraId
-		? `"JIRA#${ jiraId } ${ commitMessage }"`
-	 	: `"${ commitMessage }"`
+		? `JIRA#${ jiraId } ${ commitMessage }`
+	 	: `${ commitMessage }`
 ] );
 
 p.catch( function (e) {} );
