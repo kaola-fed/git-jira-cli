@@ -1,0 +1,20 @@
+{
+  "name": "git-jira-cli",
+  "version": "1.0.0",
+  "bin": {
+    "git-jc": "bin/git-jira"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "execa": "^0.7.0",
+    "git-branch": "^1.0.0",
+    "yargs": "^8.0.2"
+  }
+}
